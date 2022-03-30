@@ -9,7 +9,7 @@ EventEmitter = require('events')
 
 protocol_version = '7'
 defaultPort = 35729
-defaultHost = 'localhost'
+defaultHost = '0.0.0.0'
 
 defaultExts = [
   'html', 'css', 'js', 'png', 'gif', 'jpg',
